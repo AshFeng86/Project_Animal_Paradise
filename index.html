@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <h1>Let's see some cute animals</h1>
+    </header>
+
+    <div>
+        <!-- Display default image-->
+        <img id="game-image" src="images/default.gif" alt="Default cute animal image">
+        <!-- Generate the image here -->
+    </div>
+
+    <div class="prompt_area">
+        <!-- Create another division for prompting-->
+        <label for = "text-prompt">Tell me what animal you like</label>
+        <input type = "text"  id="text-prompt">
+        <button onclick="displayImage()" class = "button">❤</button>
+    </div>
+
+    <!-- For readability and maintainability, separate the files -->
+    <!-- Include the separate JS file here-->
+    <script src = "script.js"></script>
+
+    <footer>
+        <p>Created by Ash Feng</p>
+    </footer>
+</body>
+</html>

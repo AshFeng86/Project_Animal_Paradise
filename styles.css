@@ -1,0 +1,66 @@
+/* Change the overall style of the website */
+*{
+    margin: 5px;
+}
+
+header{
+    background-color: black;
+    line-height:  80px;
+    color:aliceblue;
+    text-align: center;
+    width: 650px;  /* Set the width to 34.3% of the whole page */
+    margin: 0 auto;  /* Zero margin at the top and bottom, and auto margin on the sides to center it */
+}
+
+/* Set background image and make it transparent */
+body {
+    background-image: url('images/background.jpeg');  
+    background-size: cover;  /* Cover the entire area */
+    background-repeat: no-repeat;
+}
+
+/* Center all div */
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto; 
+}
+
+/* Center all footer */
+footer{
+    color: aliceblue;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+/* Center-align text and modify the color*/
+.prompt_area{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    width: 650px; 
+    margin: auto; 
+}
+
+#text-prompt{
+    text-align: center;
+}
+
+/* Modify the button */
+.button{
+    color: red;
+    border-radius: 30px;
+    margin:auto;
+}
+
+/* Change the size of image */
+#game-image{
+    width: 650px; 
+    height: 550px;  
+    object-fit: cover;  /* Resize the image to cover the div */
+}
