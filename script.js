@@ -7,7 +7,7 @@ const imageHashMap = {
     "rabbit": "images/rabbit.jpeg",
     "otter": "images/otter.webp",
     "bird": "images/bird.jpeg",
-    "jerboa": "images/jerboa.jpeg",   
+    "jerboa": "images/jerboa.jpeg"
 }
 
 function displayImage(){

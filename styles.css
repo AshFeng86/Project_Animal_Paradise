@@ -1,6 +1,6 @@
 /* Change the overall style of the website */
 *{
-    margin: 5px;
+    margin: 10px;
 }
 
 header{
@@ -8,7 +8,7 @@ header{
     line-height:  80px;
     color:aliceblue;
     text-align: center;
-    width: 650px;  /* Set the width to 34.3% of the whole page */
+    width: 650px;
     margin: 0 auto;  /* Zero margin at the top and bottom, and auto margin on the sides to center it */
 }
 
@@ -30,8 +30,8 @@ div {
 
 /* Center all footer */
 footer{
-    color: aliceblue;
-    font-size: x-small;
+    color: black;
+    font-size: small;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,14 +41,18 @@ footer{
 /* Center-align text and modify the color*/
 .prompt_area{
     background-color: black;
+    font-size: x-large;
     color: aliceblue;
     text-align: center;
-    width: 650px; 
+    width: 650px;
+    height: 150px; 
     margin: auto; 
 }
 
 #text-prompt{
     text-align: center;
+    width: 280px;  
+    font-size: 18px;
 }
 
 /* Modify the button */
@@ -56,6 +60,9 @@ footer{
     color: red;
     border-radius: 30px;
     margin:auto;
+    width: 50px;  
+    height:40px;  
+    font-size: 18px;  
 }
 
 /* Change the size of image */
